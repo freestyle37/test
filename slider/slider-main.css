@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.window {
+    width: 300px;
+    height: 300px;
+   /* border: 3px solid red;*/
+    /*overflow: hidden;*/
+    margin-left: 600px;
+}
+.container {
+    width: 300px;
+    height: 300px;
+    /* border: 3px solid green;*/
+}
+
+/*img {
+    float: left;
+}*/
+img {
+    position: absolute;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.a1 {
+    z-index: 0;
+}
+.b2 {
+    z-index: 1;
+}
+.c3 {
+    z-index: 2;
+}
+.d4 {
+    z-index: 3;
+}
+.wrapper-for-button {
+    width: 200px;
+    margin-left: 650px;
+    margin-top: 30px;
+    
+}
+#v1 {
+    float: left;
+}
+#v2 {
+    float: right;
+}
